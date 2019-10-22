@@ -1,0 +1,76 @@
+{
+    "Menu": {
+        "isCollection": false,
+        "selector": "button.hamburger-menu__button"
+    },
+    "Expanded Menu": {
+        "isCollection": false,
+        "selector": ".hamburger-menu__list"
+    },
+    "Expanded Menu Sublists": {
+        "isCollection": true,
+        "selector": ".hamburger-menu__sub-list"
+    },
+    "Expanded Menu Row Titles": {
+        "isCollection": true,
+        "selector": ".hamburger-menu__list > .hamburger-menu__item > a.hamburger-menu__link"
+    },
+    "Globus Icon": {
+        "isCollection": false,
+        "selector": ".location-selector__button"
+    },
+
+    "User name": {
+        "isCollection": false,
+        "selector": ".admin__field._required.field-username input"
+    },
+
+    "User password": {
+        "isCollection": false,
+        "selector": ".admin__field._required.field-password input"
+    },
+    "Submit": {
+        "isCollection": false,
+        "selector": ".action-login.action-primary"
+    },
+
+    "catalog": {
+        "isCollection": false,
+        "selector": "#menu-magento-catalog-catalog"
+    },
+
+    "products": {
+        "isCollection": false,
+        "selector": ".item-catalog-products"
+    },
+
+    "addProduct": {
+        "isCollection": false,
+        "selector": "#add_new_product-button"
+    },
+
+    "productName": {
+        "isCollection": false,
+        "selector": ".admin__field[data-index=name] input"
+    },
+
+    "productPrice": {
+        "isCollection": false,
+        "selector": ".admin__field[data-index=price] input"
+    },
+
+    "save": {
+        "isCollection": false,
+        "selector": "#save-button"
+    },
+    
+    "message": {
+        "isCollection": false,
+        "selector": ".message.message-error.error"
+    },
+
+    "label": {
+        "isCollection": false,
+        "selector": "input[name = 'product[status]'] + label"
+    }
+}
